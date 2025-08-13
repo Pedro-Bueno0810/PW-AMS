@@ -8,19 +8,26 @@ div {
 
 }
 
+body, html {
+    height: 100%;
 
-h1 {
-    border: 1px solid;
-    border-radius: 20px;
-    text-align: center;
 }
 
 #container {
     display: flex;
     background-image: url(https://m.media-amazon.com/images/M/MV5BZjRjMWFkNmMtMjZkOS00MDQwLWE2ZDYtYjU4NGNhNWE2ZGI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
-    padding: 50px 25px; 
     justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
 
+.item-menu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 #container:hover {
